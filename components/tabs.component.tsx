@@ -1,7 +1,7 @@
 export const Tabs = () => {
     return (
         <div>
-            <div className="block">
+            <div className="block mb-3">
                 <div className="border-b border-gray-200">
                     <nav className="flex -mb-px">
                         <a
@@ -15,9 +15,9 @@ export const Tabs = () => {
                                 fill="currentColor"
                             >
                                 <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                 />
                             </svg>
                             <span>All items</span>
@@ -33,9 +33,9 @@ export const Tabs = () => {
                                 fill="currentColor"
                             >
                                 <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                 />
                             </svg>
                             <span>Open topics</span>

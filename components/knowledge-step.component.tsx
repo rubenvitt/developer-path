@@ -1,5 +1,6 @@
 import React from 'react';
 import { PathStep } from '../data/developer-paths';
+import { Transition } from '@headlessui/react';
 
 export const KnowledgeStep: React.FC<{ step: PathStep }> = ({ step }) => {
     return (
@@ -10,13 +11,20 @@ export const KnowledgeStep: React.FC<{ step: PathStep }> = ({ step }) => {
                         <div className="flex-1 truncate">
                             <div className="flex items-center space-x-3">
                                 <h3 className="text-gray-900 text-sm leading-5 font-medium truncate">{step.name}</h3>
-                                <span className="flex-shrink-0 inline-block px-2 py-0.5 text-teal-800 text-xs leading-4 font-medium bg-teal-100 rounded-full">
-                                    Cool tag
+                                <span className="flex-shrink-0 inline-block px-2 py-0.5 text-blue-800 text-xs leading-4 font-medium bg-blue-100 rounded-full">
+                                    Software
+                                </span>
+                                <span className="flex-shrink-0 inline-block px-2 py-0.5 text-orange-800 text-xs leading-4 font-medium bg-orange-100 rounded-full">
+                                    Programming language
+                                </span>
+                                <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs leading-4 font-medium bg-green-100 rounded-full">
+                                    Framework
+                                </span>
+                                <span className="flex-shrink-0 inline-block px-2 py-0.5 text-indigo-800 text-xs leading-4 font-medium bg-indigo-100 rounded-full">
+                                    Concept
                                 </span>
                             </div>
-                            <p className="mt-1 text-gray-500 text-sm leading-5 truncate">
-                                Regional Paradigm Technician
-                            </p>
+                            <p className="mt-1 text-gray-500 text-sm leading-5 truncate">{step.description}</p>
                         </div>
                         <img
                             className="h-20 bg-gray-300 rounded-b-none rounded-lg flex-shrink-0"
@@ -29,7 +37,7 @@ export const KnowledgeStep: React.FC<{ step: PathStep }> = ({ step }) => {
                             <div className="w-0 flex-1 flex border-r border-gray-200">
                                 <a
                                     href="#"
-                                    className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-br-lg hover:bg-blue-400 transition-colors transition duration-200 hover:text-white focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-150"
+                                    className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-bl-lg hover:bg-blue-400 hover:text-white focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-200"
                                 >
                                     <p className={'w-5 h-5'}>
                                         <svg
@@ -52,7 +60,7 @@ export const KnowledgeStep: React.FC<{ step: PathStep }> = ({ step }) => {
                             <div className="-ml-px w-0 flex-1 flex">
                                 <a
                                     href="#"
-                                    className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-br-lg hover:bg-green-500 hover:text-white focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-150"
+                                    className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-br-lg hover:bg-green-500 hover:text-white focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-200"
                                 >
                                     <p className={'w-5 h-5'}>
                                         <svg

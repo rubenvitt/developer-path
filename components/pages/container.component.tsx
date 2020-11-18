@@ -7,10 +7,10 @@ export const Container: React.FC = ({ children }) => {
     return (
         <>
             <div className="min-h-screen bg-gray-100">
-                <div className="bg-indigo-800 pb-32">
-                    <nav className="bg-indigo-800 border-b border-indigo-400 border-opacity-25 lg:border-none">
+                <div className="bg-red-700 pb-32">
+                    <nav className="bg-red-800 border-b border-red-400 border-opacity-25 lg:border-none">
                         <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
-                            <div className="relative h-16 flex items-center justify-between lg:border-b lg:border-indigo-400 lg:border-opacity-25">
+                            <div className="relative h-16 flex items-center justify-between lg:border-b lg:border-red-400 lg:border-opacity-25">
                                 <div className="px-2 flex items-center lg:px-0">
                                     <div className="flex-shrink-0">
                                         <img
@@ -23,25 +23,25 @@ export const Container: React.FC = ({ children }) => {
                                         <div className="flex">
                                             <a
                                                 href="#"
-                                                className="rounded-md bg-indigo-900 py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                                className="rounded-md bg-red-900 py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-red-700 focus:outline-none focus:bg-red-700 transition duration-150 ease-in-out"
                                             >
                                                 Dashboard
                                             </a>
                                             <a
                                                 href="#"
-                                                className="ml-4 rounded-md py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                                className="ml-4 rounded-md py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-red-700 focus:outline-none focus:bg-red-700 transition duration-150 ease-in-out"
                                             >
                                                 Team
                                             </a>
                                             <a
                                                 href="#"
-                                                className="ml-4 rounded-md py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                                className="ml-4 rounded-md py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-red-700 focus:outline-none focus:bg-red-700 transition duration-150 ease-in-out"
                                             >
                                                 Projects
                                             </a>
                                             <a
                                                 href="#"
-                                                className="ml-4 rounded-md py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                                className="ml-4 rounded-md py-2 px-3 text-sm leading-5 font-medium text-white hover:bg-red-700 focus:outline-none focus:bg-red-700 transition duration-150 ease-in-out"
                                             >
                                                 Calendar
                                             </a>
@@ -72,7 +72,7 @@ export const Container: React.FC = ({ children }) => {
                                             </div>
                                             <input
                                                 id="search"
-                                                className="block w-full bg-white py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 placeholder-gray-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo sm:text-sm transition duration-150 ease-in-out"
+                                                className="block w-full bg-white py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 placeholder-gray-500 focus:outline-none focus:border-red-300 focus:shadow-outline-red sm:text-sm transition duration-150 ease-in-out"
                                                 placeholder="Search"
                                                 type="search"
                                             />
@@ -81,7 +81,7 @@ export const Container: React.FC = ({ children }) => {
                                 </div>
                                 <div className="flex lg:hidden">
                                     <button
-                                        className="p-2 rounded-md inline-flex items-center justify-center text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700 focus:text-white transition duration-150 ease-in-out"
+                                        className="p-2 rounded-md inline-flex items-center justify-center text-red-300 hover:text-white hover:bg-red-700 focus:outline-none focus:bg-red-700 focus:text-white transition duration-150 ease-in-out"
                                         aria-expanded="false"
                                     >
                                         <span className="sr-only">Open main menu</span>
@@ -119,7 +119,7 @@ export const Container: React.FC = ({ children }) => {
                                 </div>
                                 <div className="hidden lg:block lg:ml-4">
                                     <div className="flex items-center">
-                                        <button className="flex-shrink-0 border-2 border-transparent rounded-full p-1 text-indigo-300 hover:text-white focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out">
+                                        <button className="flex-shrink-0 border-2 border-transparent rounded-full p-1 text-red-300 hover:text-white focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out">
                                             <span className="sr-only">View notifications</span>
                                             <svg
                                                 className="h-6 w-6"
@@ -193,30 +193,30 @@ export const Container: React.FC = ({ children }) => {
                             <div className="px-2 pt-2 pb-3">
                                 <a
                                     href="#"
-                                    className="block bg-indigo-900 rounded-md py-2 px-3 text-base font-medium text-white focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                    className="block bg-red-900 rounded-md py-2 px-3 text-base font-medium text-white focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                 >
                                     Dashboard
                                 </a>
                                 <a
                                     href="#"
-                                    className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-white hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                    className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-white hover:text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                 >
                                     Team
                                 </a>
                                 <a
                                     href="#"
-                                    className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-white hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                    className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-white hover:text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                 >
                                     Projects
                                 </a>
                                 <a
                                     href="#"
-                                    className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-white hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                    className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-white hover:text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                 >
                                     Calendar
                                 </a>
                             </div>
-                            <div className="pt-4 pb-3 border-t border-indigo-400 border-opacity-25">
+                            <div className="pt-4 pb-3 border-t border-red-400 border-opacity-25">
                                 <div className="px-5 flex items-center">
                                     <div className="flex-shrink-0">
                                         <img
@@ -227,7 +227,7 @@ export const Container: React.FC = ({ children }) => {
                                     </div>
                                     <div className="ml-3">
                                         <div className="text-base font-medium leading-6 text-white">Tom Cook</div>
-                                        <div className="text-sm font-medium leading-5 text-indigo-300">
+                                        <div className="text-sm font-medium leading-5 text-red-300">
                                             tom@example.com
                                         </div>
                                     </div>
@@ -235,19 +235,19 @@ export const Container: React.FC = ({ children }) => {
                                 <div className="mt-3 px-2">
                                     <a
                                         href="#"
-                                        className="block rounded-md py-2 px-3 text-base font-medium text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                        className="block rounded-md py-2 px-3 text-base font-medium text-red-300 hover:text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                     >
                                         Your Profile
                                     </a>
                                     <a
                                         href="#"
-                                        className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                        className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-red-300 hover:text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                     >
                                         Settings
                                     </a>
                                     <a
                                         href="#"
-                                        className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-indigo-300 hover:text-white hover:bg-indigo-700 focus:outline-none focus:text-white focus:bg-indigo-700 transition duration-150 ease-in-out"
+                                        className="block mt-1 rounded-md py-2 px-3 text-base font-medium text-red-300 hover:text-white hover:bg-red-700 focus:outline-none focus:text-white focus:bg-red-700 transition duration-150 ease-in-out"
                                     >
                                         Sign out
                                     </a>
@@ -257,7 +257,7 @@ export const Container: React.FC = ({ children }) => {
                     </nav>
                     <header className="py-10">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                            <h1 className="text-3xl leading-9 font-bold text-white">{heading}</h1>
+                            <h1 className="text-3xl leading-9 font-bold text-gray-100">{heading}</h1>
                         </div>
                     </header>
                 </div>

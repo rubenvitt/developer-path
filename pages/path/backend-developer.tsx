@@ -17,12 +17,9 @@ const BackendDeveloperPage = () => {
         <>
             <Tabs />
             <ul className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-                <KnowledgeStep step={data.steps[0]} />
-                <KnowledgeStep step={data.steps[0]} />
-                <KnowledgeStep step={data.steps[0]} />
-                <KnowledgeStep step={data.steps[0]} />
-                <KnowledgeStep step={data.steps[0]} />
-                <KnowledgeStep step={data.steps[0]} />
+                {data.steps.map((step) => (
+                    <KnowledgeStep step={step} />
+                ))}
             </ul>
         </>
     );
